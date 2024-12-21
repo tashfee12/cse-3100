@@ -3,7 +3,7 @@ import BaseLayout from './views/BaseLayout';
 import Home from './views/Home';
 import AvailableCats from './views/AvailableCats';
 import About from './views/About';
-import Contact from './views/contact';
+import ContactUs from './views/contact';
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path={'/'} element={<Home />} />
         <Route path={'/available-cats'} element={<AvailableCats />} />
         <Route path={'/about-us'} element={<About />} />
-        <Route path={'/contact-us'} element={<Contact />} />
+        <Route path={'/contact-us'} element={<ContactUs />} />
         
       </Route>
     </Routes>
