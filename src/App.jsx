@@ -3,7 +3,7 @@ import BaseLayout from './views/BaseLayout';
 import Home from './views/Home';
 import AvailableCats from './views/AvailableCats';
 import About from './views/About';
-import ContactUs from './views/contact';
+import ContactUs from './views/contactus';
 
 
 
